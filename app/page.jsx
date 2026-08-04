@@ -9,6 +9,7 @@ import Plates from "@/components/Plates";
 import Makers from "@/components/Makers";
 import ViewingRoom from "@/components/ViewingRoom";
 import Enquire from "@/components/Enquire";
+import Ateliers from "@/components/Ateliers";
 
 const wovenTiles = [
   { slot: "[ ikat length — 4:5 ]", title: "Bukhara Ikat, silk warp", price: "₹1,84,000", colSpan: 5, rowSpan: 2, captionSize: "lg" },
@@ -203,6 +204,8 @@ export default function Home() {
           { value: "11", label: "Students left" },
         ]}
       />
+
+      <Ateliers />
 
       <Plates />
       <Makers />
