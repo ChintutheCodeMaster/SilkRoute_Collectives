@@ -20,6 +20,11 @@ export const metadata = {
   title: "Silkroutes Collectives — Provenance, in writing",
   description:
     "Heritage objects sourced along the Silk Road, bought at the beginning of the road, not the end.",
+  icons: {
+    icon: "/SRC.jpeg",
+    shortcut: "/SRC.jpeg",
+    apple: "/SRC.jpeg",
+  },
 };
 
 const fitScript = `(function(){function f(){var w=window.innerWidth;document.body.style.zoom=w<1440?(w/1440).toString():"";}f();window.addEventListener("resize",f);})();`;
